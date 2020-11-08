@@ -448,7 +448,7 @@ body,
 /* theme */
 .bkg-theme {
     background-color: #fff;
-    border-color: #b8a379;
+    border-color: #fff;
 }
 
 .bkg-hover-theme:hover {
@@ -1864,7 +1864,7 @@ body,
 }
 
 .tml-exit-light #tml-exit {
-    color: #b8a379;
+    color: #fff;
 }
 
 .rounded .modal-dialog,
