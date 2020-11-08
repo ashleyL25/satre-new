@@ -74,6 +74,7 @@ textarea {
 }
 
 .button,
+.btn,
 button,
 input,
 select {
@@ -327,8 +328,7 @@ body.boxed .wrapper-inner {
 }
 
 .width-6 {
-    max-width: 50%;
-    min-width: 50%;
+    width: 50%;
 }
 
 .width-7 {
@@ -2349,6 +2349,7 @@ input[type=checkbox] {
 }
 
 .button,
+.btn,
 .button-content>span,
 button {
     display: inline-block;
@@ -2583,7 +2584,7 @@ div[contenteditable=true].xlarge {
 
 .button,
 button {
-    padding: 1.5rem 9rem;
+    padding: 1.3rem 6rem;
     margin: 0 1rem 1rem 0;
     font-family: inherit;
     font-size: 1.3rem;
@@ -11414,7 +11415,7 @@ body.boxed .header .header-inner {
 .hero-slider .tms-pagination {
     width: 50%;
     text-align: right;
-    padding-right: 5rem;
+    padding-right: 15rem;
 }
 
 .hero-slider .hero-content:not([class*=width-]) {
@@ -11435,7 +11436,8 @@ body.boxed .header .header-inner {
 
 .hero-slider .tms-content-scalable {
     padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
 }
 
 .hero-slider .tms-slide[class*=bkg-] .hero-content {
@@ -16256,8 +16258,8 @@ body.boxed .blog-masonry.full-width [class*=content-grid] {
 }
 
 .reply-gold {
-    color: #6F6F6F!important;
-    font-size: 13px!important;
+    color: #6F6F6F;
+    font-size: 13px;
     font-style: italic;
     font-weight: thin;
 }
@@ -16268,7 +16270,7 @@ body.boxed .blog-masonry.full-width [class*=content-grid] {
 }
 
 .reply-text {
-    color: #6F6F6F!important;
+    color: #6F6F6F;
     font-size: 12px;
     font-weight: thin;
 }
@@ -16287,3 +16289,35 @@ body.boxed .blog-masonry.full-width [class*=content-grid] {
 .text-padding-xl {
     margin-top: 5rem!important;
 }
+
+.btn {
+    padding: 1.2rem 4rem;
+    margin: 0 1rem 1rem 0;
+    font-family: inherit;
+    font-size: 1.1rem;
+    color: #b8a379;
+    background-color: #fff;
+    border: 1px solid #b8a379;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.btn:hover {
+    color: #fff;
+    border-color: rgba(222, 198, 153, 0.25);
+    background-color: #B8A379;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+
+
